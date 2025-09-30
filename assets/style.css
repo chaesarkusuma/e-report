@@ -21,6 +21,7 @@ section {
     width: 600px;
 }
 
+
 @media (max-width: 1024px) {
     #hero{
         padding-top: 50px;
@@ -47,6 +48,9 @@ section {
     }
     .about .col img {
         width: 400px;
+    }
+    .about .col img {
+        width: 300px;
     }
 }
 
