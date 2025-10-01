@@ -1,5 +1,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Caprasimo&display=swap');
 
+html {
+    scroll-behavior: smooth;
+}
+
 body {
     font-family: "Caprasimo", serif;
 }
@@ -20,6 +24,24 @@ section {
 .about .col img {
     width: 600px;
 }
+
+footer {
+    margin-top: 100px;
+    padding-bottom: 20px;
+}
+
+.footer-link {
+    opacity:75% ;
+}
+
+.footer-link:hover {
+    opacity: 100%;
+}
+
+.copyright {
+    margin-top: 100px;
+}
+
 
 
 @media (max-width: 1024px) {
