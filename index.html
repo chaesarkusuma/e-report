@@ -13,12 +13,19 @@
     <!-- font awesome -->
      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css" integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
 
+     <!-- animate css -->
+      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
+
+      <!-- aos css -->
+       <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    
+
     <!-- my css -->
      <link rel="stylesheet" href="assets/style.css">
 </head>
 <body>
     <!-- navbar -->
-     <nav class="navbar navbar-expand-lg bg-primary-subtle py-4">
+     <nav class="navbar navbar-expand-lg bg-primary-subtle py-4 animate__animated animate__fadeInDown">
         <div class="container">
             <a class="navbar-brand d-flex align-items gap-2" href="#">
                 <img src="assets/images/idn.png" alt="Logo" width="30" class="d-inline-block align-text-top rounded" >
@@ -42,7 +49,7 @@
                         <a class="nav-link text-primary" href="#recent">Recent</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link text-primary" href="#faq">]FAQ</a>
+                        <a class="nav-link text-primary" href="#faq">FAQ</a>
                     </li>
                 </ul>
             </div>
@@ -51,10 +58,10 @@
     <!--navbar end  -->
 
     <!-- hero -->
-     <section id="hero">
+     <section class="overflow-hidden" id="hero">
         <div class="container">
-            <div class="hero row  flex-nowrap align-items-center justify-content-between flex-column gap-5 flex-md-row gap-md-0 flex-column gap-5">
-                <div class="col text-center text-md-start">
+            <div class="hero row  flex-nowrap align-items-center justify-content-between flex-column gap-5 flex-md-row gap-md-0 flex-column gap-5 ">
+                <div class="col text-center text-md-start animate__animated animate__fadeInLeft animate__delay-1s">
                     <h1 class="">
                         Selamat Datang <br>
                         di aplikasi <span class="text-primary">IDN E-Report</span> <br>
@@ -66,7 +73,7 @@
                             <a class="btn btn-outline-primary" href="">Let's Start</a>
                         </div>
                 </div>
-                <div class="col d-flex justify-content-center justify-content-lg-end">
+                <div class="col d-flex justify-content-center justify-content-lg-end animate__animated animate__fadeInRight animate__delay-1s">
                     <img src="assets/images/hero.png" alt="">
                 </div>
             </div>
@@ -76,13 +83,13 @@
 
 
     <!-- about us -->
-     <section id="about">
+     <section class="overflow-hidden" id="about">
         <div class="container">
             <div class="about row ">
                 <div class="col text-center">
-                    <h1 class="fw-bold mb-4 text-primary">Tentang Kami</h1>
-                    <p class="lh-lg mb-5">"IDN E-Report 2025 adalah platform digital yang dirancang untuk memudahkan masyarakat dalam menyampaikan laporan, keluhan, maupun aspirasi secara cepat, aman, dan transparan. Kami berkomitmen menghadirkan layanan yang responsif, terpercaya, serta mendukung terciptanya komunikasi dua arah antara masyarakat dan pihak berwenang."</p>
-                    <img src="assets/images/about.png" alt="">
+                    <h1 class="fw-bold mb-4 text-primary" data-aos="fade-up" data-aos-duration="1000">Tentang Kami</h1>
+                    <p class="lh-lg mb-5" data-aos="fade-up" data-aos-duration="1000"data-aos-delay="300">"IDN E-Report 2025 adalah platform digital yang dirancang untuk memudahkan masyarakat dalam menyampaikan laporan, keluhan, maupun aspirasi secara cepat, aman, dan transparan. Kami berkomitmen menghadirkan layanan yang responsif, terpercaya, serta mendukung terciptanya komunikasi dua arah antara masyarakat dan pihak berwenang."</p>
+                    <img data-aos="fade-up" data-aos-duration="1000"data-aos-delay="300" src="assets/images/about.png" alt="">
                 </div>
             </div>
         </div>
@@ -90,24 +97,24 @@
     <!-- about us end -->
 
     <!-- service -->
-     <section id="service">
+     <section class="overflow-hidden" id="service">
         <div class="container">
             <div class="row mb-5">
-                <h1 class="text-primary">Services</h1>
-                <p>Jelajahi layanan kami pengaduan kami yang dirancang untuk berbagai kebutuhan anda.</p>
+                <h1 class="text-primary" data-aos="fade-up" data-aos-duration="1000">Services</h1>
+                <p data-aos="fade-up" data-aos-duration="1000" data-aos-delay="300">Jelajahi layanan kami pengaduan kami yang dirancang untuk berbagai kebutuhan anda.</p>
             </div>
             <div class="row p-2 gap-3">
-            <div class="col bg-primary p-4 shadow rounded-3 text-white">
+            <div class="col bg-primary p-4 shadow rounded-3 text-white" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="500">
                 <i class="fa-solid fa-graduation-cap mb-3"></i>
                 <h4 class="mb-3">Pengaduan Akademik</h4>
                 <p class="lh-lg text-dark">Sampaikan keluhan terkait masalah akademik dengan lancar.</p>
             </div>
-            <div class="col bg-primary p-4 shadow rounded-3 text-white">
+            <div class="col bg-primary p-4 shadow rounded-3 text-white" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="600">
                 <i class="fa-solid fa-fire mb-3"></i>
                 <h4 class="mb-3">Pengaduan Fasilitas</h4>
                 <p class="lh-lg text-dark">laporkan isu atau masalah pada fasilitas yang digunakan.</p>
             </div>
-            <div class="col bg-primary p-4 shadow rounded-3 text-white">
+            <div class="col bg-primary p-4 shadow rounded-3 text-white" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="700">
                 <i class="fa-solid fa-user-secret mb-3"></i>
                 <h4 class="mb-3">Pengaduan anonymous</h4>
                 <p class="lh-lg text-dark">“Gunakan fitur ini untuk menyampaikan keluhan atau masukan dengan jaminan kerahasiaan penuh. Identitas Anda tetap terlindungi.”</p>
@@ -117,14 +124,14 @@
     <!-- service end -->
 
     <!-- recent report -->
-     <section id="recent">  
+     <section class="overflow-hidden" id="recent">  
         <div class="container">
             <div class="row mb-3 text ">
-                <h1 class="text-primary">Recent Report</h1>
-                <p>"Laporan ini merangkum perkembangan terbaru dan pencapaian utama dalam periode terakhir. Fokus utama adalah pada peningkatan efisiensi dan pencapaian target strategis." </p>
+                <h1 class="text-primary" data-aos="fade-up" data-aos-duration="1000">Recent Report</h1>
+                <p class="lh-lg" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="300">"Laporan ini merangkum perkembangan terbaru dan pencapaian utama dalam periode terakhir. Fokus utama adalah pada peningkatan efisiensi dan pencapaian target strategis." </p>
             </div>
             <div class="row">
-                <div class="col-lg-4 col-md-6 mb-4">
+                <div class="col-lg-4 col-md-6 mb-4" data-aos="zoom-out" data-aos-duration="1000" data-aos-delay="700">
                     <div class="card">
                         <div class="position-absolute px-3 py-2 rounded-5" style="background-color: rgba(0, 0, 0, 0.3);">
                             <a class="text-white text-decoration-none" href="">Let him cook </a>
@@ -141,7 +148,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-lg-4 col-md-6 mb-4">
+                <div class="col-lg-4 col-md-6 mb-4" data-aos="zoom-out" data-aos-duration="1000" data-aos-delay="600">
                     <div class="card">
                         <div class="position-absolute px-3 py-2 rounded-5" style="background-color: rgba(0, 0, 0, 0.3);">
                             <a class="text-white text-decoration-none" href="">Logika</a>
@@ -158,7 +165,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-lg-4 col-md-6 mb-4">
+                <div class="col-lg-4 col-md-6 mb-4" data-aos="zoom-out" data-aos-duration="1000" data-aos-delay="500">
                     <div class="card">
                         <div class="position-absolute px-3 py-2 rounded-5" style="background-color: rgba(0, 0, 0, 0.3);">
                             <a class="text-white text-decoration-none" href="">Pusing</a>
@@ -175,41 +182,6 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-lg-4 col-md-6 mb-4">
-                    <div class="card">
-                        <div class="position-absolute px-3 py-2 rounded-5" style="background-color: rgba(0, 0, 0, 0.3);">
-                            <a class="text-white text-decoration-none" href="">Roblox</a>
-                        </div>
-                        <img src="assets/images/download (7).jpeg" class="card-img-top" alt="foto report">
-                        <div class="card-body">
-                            <h5 class="card-title">Prabowo</h5>
-                            <p>
-                                <small>By: <a  class="text-decoration-none" href="">Jumboo </a>1 day ago
-                                </small>
-                            </p>
-                            <p class="card-text">Beliau marah karena tidak diajak main roblox di saat negara baik baik saja seperti sekarang.</p>
-                            <a href="#" class="btn btn-primary">Let's see</a>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-lg-4 col-md-6 mb-4">
-                    <div class="card">
-                        <div class="position-absolute px-3 py-2 rounded-5" style="background-color: rgba(0, 0, 0, 0.3);">
-                            <a class="text-white text-decoration-none" href="">VSC</a>
-                        </div>
-                        <img src="assets/images/kodingin dlu le.jpeg" class="card-img-top" alt="foto report">
-                        <div class="card-body">
-                            <h5 class="card-title">coding dulu lee</h5>
-                            <p>
-                                <small>By: <a  class="text-decoration-none" href="">benteen </a>20 day ago
-                                </small>
-                            </p>
-                            <p class="card-text">Beliau mengajak teman nya untuk ngoding supaya nanti bisa jadi proggrammer.</p>
-                            <a href="#" class="btn btn-primary">Let's see</a>
-                        </div>
-                    </div>
-                </div>
-            </div>
             <div class="text-center mt-4">
                 <a href="" class="link-offset-2 link-offset-3-hover link-underline link-underline-opacity-0 link-underline-opacity-75-hover">Lihat Lebih Banyak <i class="fa-solid fa-arrow-right"></i></a>
             </div>
@@ -218,11 +190,11 @@
     <!-- recent report end -->
 
     <!-- faq -->
-     <section id="faq">
+     <section class="overflow-hidden" id="faq">
         <div class="container">
             <div class="row text-center">
-                <h1 class="mb-4 text-primary">FAQ</h1>
-                <P>Lorem ipsum dolor sit amet consectetur adipisicing elit. Saepe minima porro recusandae maxime laboriosam. Delectus.</P>
+                <h1 class="mb-4 text-primary" data-aos="fade-up" data-aos-duration="1000">FAQ</h1>
+                <P data-aos="fade-up" data-aos-duration="1000" data-aos-delay="300">Lorem ipsum dolor sit amet consectetur adipisicing elit. Saepe minima porro recusandae maxime laboriosam. Delectus.</P>
             </div>
             <div class="accordion pt-4 accordion-flush" id="accordionFlushExample">
                 <div class="row row-cols-1 row-cols-md-2 g-4">
@@ -297,7 +269,7 @@
     <!-- faq end -->
 
     <!-- footer -->
-     <footer class="bg-primary py-5">
+     <footer class="bg-primary py-5 overflow-hidden">
         <div class="container">
             <div class="row justify-content-between row-gap-4">
                 <div class="col-md-4 text-white">
@@ -343,5 +315,8 @@
 
     <!-- Bootstrap js -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js" integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI" crossorigin="anonymous"></script>
+
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>AOS.init();</script>
 </body>
 </html>

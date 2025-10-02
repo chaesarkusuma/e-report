@@ -16,6 +16,7 @@ body {
     width: 500px;
 }
 
+
 section {
     padding-top: 100px;
     padding-bottom: 50px;
@@ -40,6 +41,10 @@ footer {
 
 .copyright {
     margin-top: 100px;
+}
+
+.hero .col:nth-child(1) {
+    --animate-delay: 0.5s;
 }
 
 
